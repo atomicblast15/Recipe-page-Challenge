@@ -1,0 +1,29 @@
+body {
+  max-width: 375px;
+}
+.card {
+  text-align: left;
+  background-color: grey;
+
+  .card-main {
+    padding: 20px;
+  }
+  .card-img img {
+    max-width: 100%;
+  }
+  .card-preparation {
+    padding-left: 20px;
+  }
+}
+
+.card-head {
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 5px;
+}
